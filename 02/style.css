@@ -1,0 +1,46 @@
+body{
+    background: #0b0d17;
+}
+
+.container{
+max-width: 1024px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.row {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.coloumn {
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.box{
+    background: white;
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.box__title{
+    font-weight: bold;
+    margin-bottom: 16px;
+ }
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.box__icon{
+    margin-bottom: 50px;
+}
+
+.box__link{
+    color: #8C30F5;
+    mar  
+}
