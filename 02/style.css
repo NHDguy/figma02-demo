@@ -28,9 +28,20 @@ padding-right: 15px;
 }
 
 .box__title{
-    font-weight: bold;
-    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 12px;
  }
+
+.box__content{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
 
 a{
     color: inherit;
@@ -41,6 +52,9 @@ a{
 }
 
 .box__link{
-    color: #8C30F5;
-    mar  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8C30F5;  
 }
