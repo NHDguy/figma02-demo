@@ -1,6 +1,27 @@
+.feature{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 165px;
+}
+.mockup{
+    width: 540px;
+    height: 540px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 48px;
+}
+.content__title{
+    font-weight: 800;
+    font-size: 40px;
+}
+
 .stats{
     max-width: 1440px;
-    border-style: double;
     display: flex;
     flex-direction: row;
     align-items: center;
