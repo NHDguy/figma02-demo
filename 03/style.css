@@ -43,6 +43,7 @@
 .box{
     display: flex;
     column-gap: 16px;
+    align-items: center;
 }
 .icon{
     display: flex;
@@ -71,10 +72,10 @@
 }
 
 .feature{
-    width: 1440px;
+    display: flex;
+    max-width: 1440px;
     display: flex;
     flex-direction: row;
-    align-items: center;    
     padding: 64px 165px;
 }
 .mockup{
@@ -99,8 +100,9 @@
 .content{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 163px;s
 
 }
 .content__title{
@@ -109,6 +111,7 @@
 }
 
 .content__paragraph{
+    display: flex;
     font-weight: normal;
     font-size: 18px;
     padding-top: 32px;
