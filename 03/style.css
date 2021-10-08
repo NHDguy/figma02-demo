@@ -2,13 +2,29 @@
     max-width: 1440px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center;    
     padding: 64px 165px;
 }
 .mockup{
+    background-color: #F1E4FF;
     width: 540px;
     height: 540px;
+    /* Inside Auto Layout */
+    flex: none;
+    margin: 0px 30px;
+    overflow: hidden;
+    
 }
+.mockup__img{
+    position: relative;
+    width: 360px;
+    height: 720px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 56px;
+    
+}
+
 .content{
     display: flex;
     flex-direction: column;
