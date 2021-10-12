@@ -5,42 +5,49 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    container: {
+      'center' : true
+    },
     extend: {
       fontFamily: {
-        'inter': "'Inter', sans-serif",
+        'raleway': "'Raleway', sans-serif",
       },
       fontSize: {
-        'h1': ["72px", "98px"],
-        'h2': ["48px", "64px"],
-        'h3': ["40px", "54px"],
-        'h4': ["28px", "40px"],
-        'h5': ["24px", "32px"],
-        'h6': ["20px", "30px"],
-        'subtitle1': ["18px", "28px"],
-        'subtitle2': ["18px", "28px"],
-        'lead1': ["18px", "32px"],
-        'lead2': ["14x", "24px"],
-        'body1': ["16px", "26px"],
-        'body2': ["14x", "24px"],
-        'capitalised': ["14x", "18px"],
-        'badge': ["20x", "24px"],
-        "label-s": ["12x", "16px"],
-        "label-m": ["14x", "20px"],
-        "label-l": ["16x", "24px"],
+        //desktop
+        'dh1': ["48px", "56.35px"],
+        'dh2': ["40px", "46.96px"],
+        'dh3': ["32px", "37.57px"],
+        'dh4': ["24px", "28.18px"],
+        //mobile
+        'mh1': ["40px", "46.96px"],
+        'mh2': ["32px", "32.57px"],
+        'mh3': ["24px", "28.18px"],
+        'mh4': ["20px", "23.48px"],
+        'dh1': ["48px", "56.35px"],
+        //common
+        'subtitle': ["20px", "23.48px"],
+        'label': ["16px", "18.78px"],
+        'body': ["16px", "18.78px"],
+        'caption': ["13px", "15.26px"],
+      },
+      
+      colors: {
+        blue: {
+          DEFAULT: '#1890FF',
+          pressed: '#116CC0',
+        }
       }
-
-  },
+    },
+    
 
   variants: {
-    extend: {},
-  },
-  
+    extend: {}
+},
+
   plugins: [
     require('@tailwindcss/aspect-ratio'),
     // ...
   ],
-  },
-  container: {
-    'center' : true
-  }
+},
+  
 }
