@@ -41,6 +41,7 @@ module.exports = {
     
 
   variants: {
+  
     extend: {}
 },
 
@@ -48,6 +49,7 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     // ...
   ],
-},
+}
   
 }
+
