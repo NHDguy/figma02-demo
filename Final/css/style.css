@@ -885,6 +885,10 @@ video {
   background-position: top;
 }
 
+.bg-left {
+  background-position: left;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -952,6 +956,10 @@ video {
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-raleway {
