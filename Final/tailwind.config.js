@@ -33,11 +33,16 @@ module.exports = {
             },
         
          },
-
+          spacing: {
+            '108': '27rem',
+            '150': '30rem',
+         },
 
         variants: {
             extend: {}
         },
+
+    
   },
     plugins: [
     require('@tailwindcss/aspect-ratio'),
