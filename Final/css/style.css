@@ -1112,6 +1112,14 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:inline-block {
+    display: inline-block;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:gap-x-5 {
     -moz-column-gap: 1.25rem;
          column-gap: 1.25rem;
@@ -1138,6 +1146,10 @@ video {
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:grid-cols-2 {
