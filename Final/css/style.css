@@ -1011,11 +1011,6 @@ select {
   transform: var(--tw-transform);
 }
 
-.rotate-180 {
-  --tw-rotate: 180deg;
-  transform: var(--tw-transform);
-}
-
 .transform {
   transform: var(--tw-transform);
 }
@@ -1205,9 +1200,9 @@ select {
   padding-right: 0.5rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .px-5 {
@@ -1218,11 +1213,6 @@ select {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .px-10 {
@@ -1243,6 +1233,11 @@ select {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .py-8 {
@@ -1469,15 +1464,6 @@ select {
   height:100%;
   width:100%;
   position:absolute;
-}
-
-.hover\:rotate-180:hover {
-  --tw-rotate: 180deg;
-  transform: var(--tw-transform);
-}
-
-.hover\:transform:hover {
-  transform: var(--tw-transform);
 }
 
 .hover\:border-blue-500:hover {
